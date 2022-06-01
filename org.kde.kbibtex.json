@@ -78,8 +78,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://poppler.freedesktop.org/poppler-22.05.0.tar.xz",
-                    "sha256": "a969ced458e050d6202367bd7427054e2bd19bae39e8f969910d3b9151abf958",
+                    "url": "https://poppler.freedesktop.org/poppler-22.06.0.tar.xz",
+                    "sha256": "a0f9aaa3918bad781039fc307a635652a14d1b391cd559b66edec4bedba3c5d7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 3686,
@@ -97,7 +97,7 @@
                     "type": "archive",
                     "url": "https://poppler.freedesktop.org/poppler-data-0.4.11.tar.gz",
                     "sha256": "2cec05cd1bb03af98a8b06a1e22f6e6e1a65b1e2f3816cb3069bb0874825f08c",
-                     "x-checker-data": {
+                    "x-checker-data": {
                         "type": "anitya",
                         "project-id": 3687,
                         "stable-only": true,
