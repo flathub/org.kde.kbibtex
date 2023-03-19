@@ -113,8 +113,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/KBibTeX/0.9.3/kbibtex-0.9.3.2.tar.xz",
-                    "sha256": "0733c24ca322327cf3d92fa36e4e196c4b9dc895f911a4c3558e7db5efc0c457",
+                    "url": "https://download.kde.org/stable/KBibTeX/0.10.0/kbibtex-0.10.0.tar.xz",
+                    "sha256": "b127b240a7cd77c538619dc882a399b3c6ccd77a04428a497af906f14d09b8c4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1494,
