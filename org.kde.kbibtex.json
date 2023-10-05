@@ -73,7 +73,8 @@
                 "-DBUILD_QT6_TESTS=OFF",
                 "-DBUILD_CPP_TESTS=OFF",
                 "-DBUILD_MANUAL_TESTS=OFF",
-                "-DENABLE_UTILS=OFF"
+                "-DENABLE_UTILS=OFF",
+                "-DENABLE_QT6=OFF"
             ],
             "sources": [
                 {
