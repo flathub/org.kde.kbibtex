@@ -6,12 +6,12 @@
     "command": "kbibtex",
     "rename-icon": "kbibtex",
     "finish-args": [
+        "--device=dri",
         "--share=ipc",
         "--share=network",
         "--socket=cups",
         "--socket=fallback-x11",
-        "--socket=wayland",
-        "--device=dri"
+        "--socket=wayland"
     ],
     "cleanup": [
         "/include",
