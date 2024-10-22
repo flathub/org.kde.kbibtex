@@ -1,44 +1,23 @@
-From 050c1f44b3fb2bbc35bbdb36b1aee294a2091271 Mon Sep 17 00:00:00 2001
-From: =?UTF-8?q?Matthias=20Mail=C3=A4nder?= <matthias@mailaender.name>
-Date: Sun, 15 May 2022 22:16:29 +0200
-Subject: [PATCH 1/2] Add Open Age Content Rating
+From 52d7a714c7af3cb9ac683a9799d84e3ddf0cc44f Mon Sep 17 00:00:00 2001
+From: Justin Zobel <justin.zobel@gmail.com>
+Date: Tue, 22 Oct 2024 21:38:16 +1030
+Subject: [PATCH] appstream
 
 ---
- src/program/org.kde.kbibtex.appdata.xml | 1 +
- 1 file changed, 1 insertion(+)
+ src/program/org.kde.kbibtex.appdata.xml | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
 
 diff --git a/src/program/org.kde.kbibtex.appdata.xml b/src/program/org.kde.kbibtex.appdata.xml
-index f7ecfb13..9bd8f9e2 100644
+index 89f7b1c..b2d7a22 100644
 --- a/src/program/org.kde.kbibtex.appdata.xml
 +++ b/src/program/org.kde.kbibtex.appdata.xml
-@@ -356,4 +356,5 @@
+@@ -333,4 +333,15 @@
    <provides>
      <binary>kbibtex</binary>
    </provides>
 +  <content_rating type="oars-1.1" />
- </component>
--- 
-GitLab
-
-
-From 0ac37201fd86f0103ac51d73e762808104555cf6 Mon Sep 17 00:00:00 2001
-From: =?UTF-8?q?Matthias=20Mail=C3=A4nder?= <matthias@mailaender.name>
-Date: Sun, 15 May 2022 22:20:03 +0200
-Subject: [PATCH 2/2] Add release history
-
----
- src/program/org.kde.kbibtex.appdata.xml | 9 +++++++++
- 1 file changed, 9 insertions(+)
-
-diff --git a/src/program/org.kde.kbibtex.appdata.xml b/src/program/org.kde.kbibtex.appdata.xml
-index 9bd8f9e2..c7b9b81d 100644
---- a/src/program/org.kde.kbibtex.appdata.xml
-+++ b/src/program/org.kde.kbibtex.appdata.xml
-@@ -357,4 +357,13 @@
-     <binary>kbibtex</binary>
-   </provides>
-   <content_rating type="oars-1.1" />
 +  <releases>
++    <release version="0.10.0" date="2022-03-18"/>
 +    <release version="0.9.2" date="2020-04-26" />
 +    <release version="0.9.1" date="2019-11-17" />
 +    <release version="0.9" date="2019-06-05" />
@@ -49,5 +28,5 @@ index 9bd8f9e2..c7b9b81d 100644
 +  </releases>
  </component>
 -- 
-GitLab
+2.47.0
 
