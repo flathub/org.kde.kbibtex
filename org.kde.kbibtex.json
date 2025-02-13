@@ -126,6 +126,10 @@
                 {
                     "type": "patch",
                     "path": "appstream.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "9500327559f6059d20445e67ca1816ffa00428ef.patch"
                 }
             ]
         }
