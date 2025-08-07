@@ -15,10 +15,13 @@
     ],
     "cleanup": [
         "/include",
+        "/lib/cmake",
         "/lib/pkgconfig",
         "*.a",
         "*.la",
-        "/share/man"
+        "/share/man",
+        "/share/pkgconfig",
+        "/share/qlogging-categories5"
     ],
     "modules": [
         {
