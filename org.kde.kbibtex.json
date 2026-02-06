@@ -16,12 +16,15 @@
     "cleanup": [
         "/include",
         "/lib/cmake",
+        "/lib/girepository-1.0",
         "/lib/pkgconfig",
-        "*.a",
-        "*.la",
+        "/share/doc",
         "/share/man",
+        "/share/gir-1.0",
         "/share/pkgconfig",
-        "/share/qlogging-categories5"
+        "/share/qlogging-categories5",
+        "*.la",
+        "*.a"
     ],
     "modules": [
         {
